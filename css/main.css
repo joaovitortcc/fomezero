@@ -1,26 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Source+Sans+Pro&display=swap');
-
 body {
     width: 100%;
     height: 100%;
     margin: 0 auto;                                                                 
-}
-
-.th {
-    font-family: 'Anton', sans-serif;
-    font-size: 40px;
-}
-
-.descricao {
-    font-family: 'Nerko One', cursive;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 30px;
-}
-
-.mapadescricao {
-    font-family: 'Anton', sans-serif;
-    font-size: 40px;
 }
 
 ul {
@@ -43,6 +24,14 @@ main {
     float: left;
     padding: 16px;
     width: 90%;
+}
+
+.perfil .imgperfil{
+    height: 47px;
+    width: 47px;
+    margin-left: 1830px;
+    margin-top: -1430px;
+
 }
 
 .redes-sociais ul li {
@@ -173,7 +162,7 @@ overflow-x: hidden;
 }
 
 li.slick-active button{
-    background: #00FF00;
+    background: #00BFFF;
 }
 
 .slick-dots li {
@@ -192,13 +181,13 @@ li.slick-active button{
 .bloco-imagem img {
     border: 1px solid #c5c5c5;
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 50px;
+    margin-left: 10px;
     margin-top: 40px;
-    height: 430px;
-    width: 380px;
+    height: 25%;
+    width: 25%;
 
 }
 
@@ -209,8 +198,8 @@ li.slick-active button{
     padding-left: 15px;
     padding-right: 15px;
     margin-left: 10px;
-    height: 430px;
-    width: 380px;
+    height: 25%;
+    width: 25%;
     
 }
 
@@ -223,82 +212,29 @@ li.slick-active button{
 .bloco-fome .imgfome{
     border: 1px solid #c5c5c5;
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: -500px; 
-    margin-left: 760px;
-    height: 430px;
-    width: 380px;
+    margin-top: -270px; 
+    margin-left: 715px;
+    height: 25%;
+    width: 25%;
 
 }
 
 .bloco-onu .imgonu{
     border: 1px solid #c5c5c5;
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: -458px;
-    margin-left: 1440px;
-    height: 430px;
-    width: 380px;
+    margin-top: -354px;
+    margin-left: 1398px;
+    height: 25%;
+    width: 25%;
 
 }
 
-.bloco-mesa {
-    border: 1px solid #c5c5c5;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 40px;
-    margin-left: 40px;
-    margin-top: 10px;
-    height: 200px;
-    width: 200px;
-}
-
-.imgmesa {
-    width: 300px;
-    height: 250px;
-    margin-top: -40px;
-    margin-left: -20px;
-}
-
-.imglbv {
-    width: 100%;
-    height: 100%;
-    margin-left: 7px;
-}
-
-.bloco-lbv {
-    border: 1px solid #c5c5c5;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 800px;
-    margin-top: -226px;
-    height: 200px;
-    width: 200px;
-}
-
-.imgceu {
-    width: 100%;
-    height: 100%;
-}
-
-.bloco-ceu {
-    border: 1px solid #c5c5c5;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 5px;
-    margin-left: 1645px;
-    margin-top: -227px;
-    height: 200px;
-    width: 200px
-}
 
 .main_footer          { 
 	background-color:#363636; 
@@ -437,7 +373,7 @@ li.slick-active button{
     opacity:1;
     width: 150%;
 }
-.main_footer_copy { background-color:#4F4F4F; width:100%; height: 120px; float:left; text-align:center; padding:1.5em 0em; }
+.main_footer_copy { background-color:#4F4F4F; width:100%; height: 110px; float:left; text-align:center; padding: 60px; }
 .main_footer_copy p { font-family:'open_sanslight'; font-size:1em; color:#e1e0e0; height:20px; }
 .main_footer_copy .m-b-footer   { margin-bottom:0.5em; }
 .main_footer_copy .by   { font-size:0.96em; }
@@ -449,122 +385,4 @@ li.slick-active button{
 @media (min-width:48em){
 .colfooter  { width:30%; margin-right:5%; margin-bottom:0; }
 .colfooter:nth-of-type(3n+0){ margin-right:0; border-right:0;}
-}
-
-.mapa
-{
-    margin-left: 800px;
-
-}
-
-#map {
-    display: none;
-}
-
-#map .state {
-    cursor: pointer;
-}
-
-#map .state .shape {
-    cursor: pointer;
-    -width: 0;
-}
-
-#map .state .label_icon_state {
-    fill: #fff;
-    font-family: Arial;
-    font-size: 11px;
-    line-height: 12px;
-    font-weight: normal;
-}
-
-#map .state .label_state {
-    display: none;
-    font-family: Arial;
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: bold;
-}
-
-#map .state:hover .label_state,
-#map .state.hover .label_state {
-    display: block;
-}
-
-#map .model-green .state .shape {
-    fill: #6cb361;
-}
-
-#map .model-green .state .icon_state {
-    fill: #10592f;
-}
-
-#map .model-green .state .label_icon_state {
-    fill: #fff;
-}
-
-#map .model-green .state .label_state {
-    fill: #666;
-}
-
-#map .model-green .state:hover .shape,
-#map .model-green .state.hover .shape {
-    fill: #2d68b2;
-}
-
-#map .model-green .state:hover .icon_state,
-#map .model-green .state.hover .icon_state {
-    fill: #5a95ce;
-}
-
-#map .model-orange .state .shape {
-    fill: #fd7132;
-}
-
-#map .model-orange .state .icon_state {
-    fill: #6cb361;
-}
-
-#map .model-orange .state .label_icon_state {
-    fill: #fff;
-}
-
-#map .model-orange .state .label_state {
-    fill: #666;
-}
-
-#map .model-orange .state:hover .shape,
-#map .model-orange .state.hover .shape {
-    fill: #c93f04;
-}
-
-#map .model-orange .state:hover .icon_state,
-#map .model-orange .state.hover .icon_state {
-    fill: #10592f;
-}
-
-#map .model-darkgreen .state .shape {
-    fill: #366823;
-}
-
-#map .model-darkgreen .state .icon_state {
-    fill: #2779c6;
-}
-
-#map .model-darkgreen .state .label_icon_state {
-    fill: #fff;
-}
-
-#map .model-darkgreen .state .label_state {
-    fill: #666;
-}
-
-#map .model-darkgreen .state:hover .shape,
-#map .model-darkgreen .state.hover .shape {
-    fill: #4a8c31;
-}
-
-#map .model-darkgreen .state:hover .icon_state,
-#map .model-darkgreen .state.hover .icon_state {
-    fill: #5a95ce;
 }
